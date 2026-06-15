@@ -1,8 +1,8 @@
-const { v4: uuidv4 } = require("uuid");
+const { randomUUID } = require("crypto");
 
 class Product {
   constructor(name, price, stockQuantity) {
-    this.id = uuidv4();
+    this.id = randomUUID();
     this.name = name;
     this.price = price;
     this.stockQuantity = stockQuantity;

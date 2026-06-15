@@ -1,6 +1,6 @@
 // src/controllers/cartController.js
 const cartService = require("../services/cart_service");
-const db = require("../catalogue");
+const db = require("../repository/catalogue");
 
 exports.add = (req, res) => {
   try {

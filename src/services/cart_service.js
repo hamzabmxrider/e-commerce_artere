@@ -1,4 +1,4 @@
-const db = require("../catalogue");
+const db = require("../repository/catalogue");
 const Cart = require("../models/cart");
 
 class CartService {

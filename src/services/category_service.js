@@ -1,5 +1,5 @@
-const db = require("../database");
-const Category = require("../models/Category");
+const db = require("../repository/catalogue");
+const Category = require("../models/category");
 
 class CategoryService {
 

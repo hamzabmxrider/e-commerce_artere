@@ -1,4 +1,4 @@
-const categoryService = require("../services/categoryService");
+const categoryService = require("../services/category_service");
 
 exports.create = (req, res) => {
   try {

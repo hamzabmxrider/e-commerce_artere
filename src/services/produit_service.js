@@ -1,5 +1,5 @@
-const db = require("../database");
-const Product = require("../models/Product");
+const db = require("../repository/catalogue");
+const Product = require("../models/produit");
 
 class ProductService {
 

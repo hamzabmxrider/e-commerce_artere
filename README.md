@@ -1,1 +1,3 @@
-# e-commerce_artere
+# Commerce electronique Artere
+
+Projet d'API de catalogue, categories et panier.
